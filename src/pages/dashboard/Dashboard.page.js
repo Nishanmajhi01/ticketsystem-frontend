@@ -4,7 +4,6 @@ import { TicketTable } from '../../components/ticket-table/TicketTable.compo'
 import tickets from '../../assets/data/dummy-tickets.json'
 import {PageBreadcrumb} from '../../components/breadcrumb/Breadcrumb.compo'
 
-
 export const Dashboard = () => {
   return (
     <Container>
