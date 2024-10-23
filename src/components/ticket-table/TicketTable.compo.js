@@ -1,7 +1,8 @@
 import React from 'react'
 import {Table, TaBLE} from 'react-bootstrap'
+import PropTypes from 'prop-types'
+import { propTypes } from 'react-bootstrap/esm/Image'
 export const TicketTable = ({tickets}) => {
-
   return (
     <Table striped bordered hover>
      <thead>
@@ -33,4 +34,6 @@ export const TicketTable = ({tickets}) => {
   )
 }
 
-
+TicketTable.prototypes={
+tickets: PropTypes.array.isRequired,
+}
